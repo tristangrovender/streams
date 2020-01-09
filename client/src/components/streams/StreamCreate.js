@@ -3,14 +3,9 @@ import { Field, reduxForm } from "redux-form";
 
 class StreamCreate extends React.Component {
     // helper method
-    renderInput(formProps) {
-        // Pre-refactor
-        return (
-            <input
-                onChange={formProps.input.onChange}
-                value={formProps.input.value}
-            />
-        );
+    renderInput({ input }) {
+        // Post-refactor
+        return <input {...input} />;
     }
 
     render() {
