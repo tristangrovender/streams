@@ -1,20 +1,26 @@
 {
-    "streams": [
-        {
-            "title": "My stream",
-            "description": "This is great",
-            "id": 1
-        },
-        {
-            "title": "My cool stream",
-            "description": "This is a description of my awesome stream",
-            "id": 2
-        },
-        {
-            "title": "This one is new",
-            "description": "so cool",
-            "userId": "114537001785136964424",
-            "id": 9
-        }
-    ]
+  "streams": [
+    {
+      "title": "My stream",
+      "description": "This is great",
+      "id": 1
+    },
+    {
+      "title": "My cool stream",
+      "description": "This is a description of my awesome stream",
+      "id": 2
+    },
+    {
+      "title": "This one is new",
+      "description": "so cool",
+      "userId": "114537001785136964424",
+      "id": 9
+    },
+    {
+      "title": "Hank's big day",
+      "description": "There are lots of presents",
+      "userId": "114537001785136964424",
+      "id": 10
+    }
+  ]
 }
